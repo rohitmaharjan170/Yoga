@@ -1,0 +1,68 @@
+.page-footer {
+  background-image: url("images/pattern2.png");
+  font-family: Roboto;
+  //background: #2d3130;
+  color: white;
+  h5, p, a {
+    color: white;
+  }
+  p {
+    font-size: 13px;
+  }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid;
+    color: white;
+  }
+
+}
+
+.footer-subs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .email {
+    font-size: 14px;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .subscribe {
+    border: none;
+    outline: none;
+    padding: 0.5rem 2rem;
+    background: #67c6aa;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+}
+.why-choose{
+  background: #f0f0f0;
+  padding: 4rem 5rem;
+  @media (max-width: 768px) {
+    padding: 4rem 2rem;
+  }
+  @media (max-width: 600px) {
+    padding: 4rem 1rem;
+  }
+  .teacher-training{
+    display: flex;
+    align-items: center;
+    img{
+      margin-right: 1rem;
+    }
+    .desc{
+      text-align: justify;
+    }
+    a{
+      color: #1b1e21;
+    }
+  }
+}
+
